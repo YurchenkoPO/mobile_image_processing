@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_age"
+        app:showAsAction="never"
+        android:title="@string/action_RecognizeAge"/>
+    <item
+        android:id="@+id/action_gender"
+        app:showAsAction="never"
+        android:title="@string/action_RecognizeGender"/>
+    <item
+        android:id="@+id/action_age_gender"
+        app:showAsAction="never"
+        android:title="@string/action_RecognizeAgeGender"/>
+    <item
+        android:id="@+id/action_ethnicity"
+        app:showAsAction="never"
+        android:title="@string/action_RecognizeEthnicity"/>
+    <item
+        android:id="@+id/category_list_gender_ethnicity"
+        app:showAsAction="never"
+        android:title="@string/action_RecognizeGenderEthnicity"/>
+    <item
+        android:id="@+id/action_emotion"
+        app:showAsAction="never"
+        android:title="@string/action_RecognizeEmotion"/>
+
+</menu>
